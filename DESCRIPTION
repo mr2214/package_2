@@ -1,0 +1,18 @@
+Package: mreo.advanceRI
+Type: Package
+Title: Package for advance prograaming in r
+Version: 0.1.0
+Author: Martin Roe
+Maintainer: The package maintainer <xroem001@studenti.czu.cz>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends:
+    data.table,
+    rgdal,
+    raster,
+    ncdf4,
+    R (>= 3.6.1)
+RoxygenNote: 7.1.1
