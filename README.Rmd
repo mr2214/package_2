@@ -1,0 +1,12 @@
+---
+title: "Martin_ROe_package"
+output: github_document
+---
+
+## installation
+```{r, eval = F, echo=FALSE}
+devtools::install_github('git@github.com:mr2214/package_2.git')
+```
+
+## details on how to use the package
+### The package creates a function called number, with can be used to convert precipitation data loaded onto the environment - helpd within the package into a format were all data is grouped into a list, with only key information. THe arguments for number are interger values form 1 to the total numbe rof files loaded onto the disc - with increasing values the funciton will take longer to complete, hence a print output is give user estimate of the time left ofr function to run 
